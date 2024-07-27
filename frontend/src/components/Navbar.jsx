@@ -9,7 +9,7 @@ const UserNavbar = () => {
     <Navbar bg="dark" variant="dark" expand="lg" className="mb-4" fixed="top">
       <Container>
         <Navbar.Brand as={Link} to="/"> 
-          <Link href='/' className="">&lt;Code/Crack&gt;</Link>
+          <Link href='/' className=""><h3>&lt;Code/Crack&gt;</h3></Link>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
