@@ -5,7 +5,7 @@ const Footer = () => {
     <Navbar bg="dark" variant="dark" fixed="bottom" className="footer mt-auto py-3">
       <Container className="justify-content-center">
         <span className="text-light">
-          Copyright &copy; {new Date().getFullYear()} CodeCrack 
+          Copyright &copy; {new Date().getFullYear()} &lt;Code/Crack&gt;
         </span>
       </Container>
     </Navbar>
