@@ -8,7 +8,7 @@ const UserNavbar = () => {
   return (
     <Navbar bg="dark" variant="dark" expand="lg" className="mb-4" fixed="top">
       <Container>
-        <Navbar.Brand as={Link} to="/">
+        <Navbar.Brand as={Link} to="/"> 
           <Link href='/' className="text-[blue]">&lt;Code/Crack&gt;</Link>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
